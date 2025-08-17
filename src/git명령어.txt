@@ -1,0 +1,5 @@
+git add .
+git commit -m "이니셜"
+git push
+
+git pull
