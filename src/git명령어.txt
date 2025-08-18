@@ -1,5 +1,5 @@
 git add .
-git commit -m "서블릿과 JSP의 한계"
+git commit -m "MVC 패턴 - 적용"
 git push
 
 git pull
