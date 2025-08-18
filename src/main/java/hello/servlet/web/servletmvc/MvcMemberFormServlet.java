@@ -1,4 +1,4 @@
-package hello.servlet.web.servletmvc.MvcMemberFormServlet;
+package hello.servlet.web.servletmvc;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
