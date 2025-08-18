@@ -29,9 +29,12 @@ public class RequestBodyJsonServlet extends HttpServlet {
             response)
             throws ServletException, IOException {
         ServletInputStream inputStream = request.getInputStream();
+
         String messageBody = StreamUtils.copyToString(inputStream,
                 StandardCharsets.UTF_8);
+
         System.out.println("messageBody = " + messageBody);
+
         HelloData helloData = objectMapper.readValue(messageBody,
                 HelloData.class);
         System.out.println("helloData.username = " + helloData.getUsername());
