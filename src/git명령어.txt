@@ -1,5 +1,5 @@
 git add .
-git commit -m "이니셜"
+git commit -m "서블릿"
 git push
 
 git pull
