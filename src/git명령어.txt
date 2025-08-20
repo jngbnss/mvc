@@ -1,5 +1,5 @@
 git add .
-git commit -m "MVC 패턴 - 적용"
+git commit -m "MVC 프레임워크 만들기 v1,v2"
 git push
 
 git pull
